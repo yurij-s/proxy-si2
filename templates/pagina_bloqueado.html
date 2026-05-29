@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Bloqueado</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="icone">🚫</div>
+        <h1>Acesso Bloqueado</h1>
+        <p class="mensagem">O site que você tentou acessar está bloqueado.</p>
+        <div class="site-bloqueado">{{ url }}</div>
+        <p class="sub">Entre em contato com o administrador caso acredite que isso é um erro.</p>
+    </div>
+</body>
+</html>

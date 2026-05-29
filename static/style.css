@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    max-width: 480px;
+    width: 90%;
+}
+
+.icone {
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    color: #e63946;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.mensagem {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.site-bloqueado {
+    background-color: #f8d7da;
+    color: #c0392b;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: monospace;
+    margin-bottom: 24px;
+    word-break: break-all;
+}
+
+.sub {
+    color: #999;
+    font-size: 13px;
+}
